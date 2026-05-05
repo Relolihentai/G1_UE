@@ -1,0 +1,30 @@
+# Unreal Engine generated files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio / Rider / local IDE files
+.vs/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and crash dumps
+*.log
+*.dmp
+
+# Packaged builds
+Releases/
+PackagedBuilds/
