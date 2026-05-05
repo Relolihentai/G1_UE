@@ -4,18 +4,43 @@ Build/
 DerivedDataCache/
 Intermediate/
 Saved/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Generated project files
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
 
 # Visual Studio / Rider / local IDE files
 .vs/
 .idea/
-*.sln
-*.suo
 *.user
 *.userosscache
 *.sdf
 *.opensdf
 *.VC.db
 *.VC.opendb
+
+# Compiled objects and binaries
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
 
 # OS files
 .DS_Store
@@ -28,3 +53,6 @@ Thumbs.db
 # Packaged builds
 Releases/
 PackagedBuilds/
+
+# Built map data
+*_BuiltData.uasset
